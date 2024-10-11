@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home {
+    background-image: url(https://cdn.pixabay.com/photo/2023/10/26/14/31/cake-8342822_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #dfdfdf;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#home h1{
+    padding: 1vh;
+    background-color: rgb(31, 19, 19);
+    font-size: 2.4em;
+    border-radius: 36px;
+}
+
+#home h2{
+    width: 700px;
+    align-items: center;
+    padding: 1vh;
+    border-radius: 36px;
+    background-color:rgb(31, 19, 19);
+}
+
+hr{
+    width: 80%;
+    height: 2px;
+    background-color: #ffffffde;
+    border: none;
+}
+
+#home p {
+    width: 500px;
+    margin: 15px;
+    padding: 1vh;
+    background-color: rgb(31, 19, 19);
+    font-size: 1.5em;
+    border-radius: 15px;
+}
+
+#home a{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 19px;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    text-decoration: none;
+}
+
+.cta-button{
+    background-color: #95fa36;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0px 0px 9px #00000091;
+    margin-top: 30px;
+}
+
+.cta-button:hover{
+    transition: 0.2s cubic-bezier(.55,.01,1,.12);
+    background-color: #a2fa50;
+    transform: scale(1.1);
+}
+
+
+
+.home{
+    text-align: center;
+    background-image: url(https://www.rbsdirect.com.br/filestore/8/8/9/7/0/3/2_006f9c780429c82/2307988_1eb6a47e795ab2e.jpg?w=600);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.home h1{
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.home p{
+    font-size: 26px;
+}
+
+.home a{
+    padding: 3px;
+    text-decoration: none;
+    background-color: #9acd32;
+}
+
+.inicio{
+    background-image: url();
+}
+
+
+@media(max-width: 468px){
+    #home {
+        background-image: url(https://cdn.pixabay.com/photo/2023/10/26/14/31/cake-8342822_1280.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #dfdfdf;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #home h1{
+        padding: 1vh;
+        background-color: rgb(31, 19, 19);
+        font-size: 2.4em;
+        border-radius: 36px;
+    }
+    
+    #home h2{
+        align-items: center;
+        padding: 1vh;
+        border-radius: 36px;
+        background-color:rgb(31, 19, 19);
+    }
+    
+    hr{
+        width: 80%;
+        height: 3px;
+        background-color: rgba(0, 0, 0, 0.87);
+        border: none;
+    }
+    
+    #home p {
+        margin: 15px;
+        padding: 1vh;
+        background-color: rgb(31, 19, 19);
+        font-size: 1.5em;
+        border-radius: 15px;
+    }
+    
+    #home a{
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 7px;
+        color: rgb(255, 255, 255);
+        padding: 3px;
+        text-decoration: none;
+        background-color: #bdff39;
+    }
+    
+    .cta-button{
+        background-color: #ff851b;
+        color: #ffffff;
+        padding: 15px 30px;
+        font-size: 18px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        margin-top: 30px;
+    }
+    
+    .cta-button:hover{
+        background-color: #ffb247f3;
+        transform: scale(1.05);
+    }
+    
+    .home{
+        font-family: ;
+        text-align: center;
+        background-image: url(https://www.rbsdirect.com.br/filestore/8/8/9/7/0/3/2_006f9c780429c82/2307988_1eb6a47e795ab2e.jpg?w=600);
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    .home h1{
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+    }
+    
+    .home p{
+        font-size: 26px;
+    }
+    
+    .home a{
+        padding: 3px;
+        text-decoration: none;
+        background-color: #9acd32;
+    }
+    
+    .inicio{
+        background-image: url();
+    }
+}
