@@ -105,6 +105,7 @@ hr{
 
 
 @media(max-width: 468px){
+    
     #home {
         background-image: url(https://cdn.pixabay.com/photo/2023/10/26/14/31/cake-8342822_1280.jpg);
         background-size: cover;
@@ -128,6 +129,7 @@ hr{
     }
     
     #home h2{
+        width: 400px;
         align-items: center;
         padding: 1vh;
         border-radius: 36px;
@@ -136,12 +138,13 @@ hr{
     
     hr{
         width: 80%;
-        height: 3px;
-        background-color: rgba(0, 0, 0, 0.87);
+        height: 2px;
+        background-color: #ffffffde;
         border: none;
     }
     
     #home p {
+        width: 300px;
         margin: 15px;
         padding: 1vh;
         background-color: rgb(31, 19, 19);
@@ -152,33 +155,31 @@ hr{
     #home a{
         font-size: large;
         font-family: Arial, Helvetica, sans-serif;
-        border-radius: 7px;
+        border-radius: 19px;
         color: rgb(255, 255, 255);
-        padding: 3px;
+        padding: 7px;
         text-decoration: none;
-        background-color: #bdff39;
     }
     
     .cta-button{
-        background-color: #ff851b;
+        background-color: #95fa36;
         color: #ffffff;
-        padding: 15px 30px;
+        padding: 15px;
         font-size: 18px;
-        border: none;
-        border-radius: 25px;
         cursor: pointer;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0px 0px 9px #00000091;
         margin-top: 30px;
     }
     
     .cta-button:hover{
-        background-color: #ffb247f3;
-        transform: scale(1.05);
+        transition: 0.2s cubic-bezier(.55,.01,1,.12);
+        background-color: #a2fa50;
+        transform: scale(1.1);
     }
     
+    
+    
     .home{
-        font-family: ;
         text-align: center;
         background-image: url(https://www.rbsdirect.com.br/filestore/8/8/9/7/0/3/2_006f9c780429c82/2307988_1eb6a47e795ab2e.jpg?w=600);
         background-color: rgba(0, 0, 0, 0);
@@ -203,4 +204,5 @@ hr{
     .inicio{
         background-image: url();
     }
+
 }
